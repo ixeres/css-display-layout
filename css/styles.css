@@ -1,0 +1,98 @@
+/*RESET GOES HERE.*/
+
+body {
+padding: 0;
+margin: 0;
+font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, b, {
+padding: 0;
+margin: 0;
+line-height: 1em;
+font-size: 100%;
+font-weight: normal;
+font-style: normal;
+}
+table {
+font-size: inherit;
+}
+ul {
+list-style: none;
+}
+img {
+border: 0;
+}
+p {
+margin: 1em 0;
+}
+
+*,
+*::after
+*::before {
+  box-sizing: border-box;
+}
+
+/*RESET IS END.*/
+body {
+  width: 100%;
+}
+
+h1 {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 1px;
+}
+
+li {
+  background-color: #d3d3d3;
+  display: inline-flex;
+  padding: 5px;
+}
+
+b {
+  border-bottom: 1px solid yellow;
+}
+
+section {
+  box-sizing: content-box;
+}
+
+caption {
+  background-color: #8dfdd2;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+table {
+  text-align: center;
+}
+
+.options {
+  background-color: #fed400;
+  padding: 10px;
+}
+
+img[src*="unsplash"] {
+  display: inline;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
